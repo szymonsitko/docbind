@@ -1,10 +1,10 @@
 {
   "name": "docbind",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Micromodule to enable DOM testing with WebdriverIO",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/jasmine"
   },
   "keywords": [
     "test",

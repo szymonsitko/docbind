@@ -11,7 +11,7 @@ into functional test with WebdriverIO.
 It's really simple:
 
         // Importing like that
-        const { document } = 'docbind';
+        const document = require('docbind');
 
         ...
         // Using inside of "it" block

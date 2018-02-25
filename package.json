@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Micromodule to enable DOM testing with WebdriverIO",
   "main": "index.js",
+  "repository": "github:szymonsitko/docbind",
   "scripts": {
     "test": "./node_modules/.bin/jasmine"
   },

@@ -10,14 +10,14 @@ function DOMBuilder(browserObject) {
 
 DOMBuilder.prototype.createDocument = function(browser) {
     if (!browser || !(browser instanceof Object)) {
-        throw new Error(error.NOT_PROVIDED_OR_INVALID);
+        throw new TypeError(error.NOT_PROVIDED_OR_INVALID);
     } else {
         let browserKeys = Object.keys(browser);
         if (!browserKeys.length) {
-            throw new Error(error.INVALID_BROWSER_OBJECT);
+            throw new TypeError(error.INVALID_BROWSER_OBJECT);
         }
         if (!browser.getHTML) {
-            throw new Error(error.UNDEFINED_FUNCTION);
+            throw new Error(error.UNDEFINED_GETHTML_FUNCTION);
         }
     }
     return new JSDOM('<!DOCTYPE html>' + browser.getHTML('html')).window.document;

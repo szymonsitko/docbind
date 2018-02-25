@@ -6,7 +6,7 @@ function BindDocument(cn) {
         if (prototype.toString() === 'DOMBuilder') {
             return new cn(browserObject);
         }
-        throw new Error(error.MISSING_CONSTRUCTOR);
+        throw new ReferenceError(error.MISSING_CONSTRUCTOR);
     }
 }
 

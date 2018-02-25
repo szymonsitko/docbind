@@ -1,0 +1,29 @@
+{
+  "name": "docbind",
+  "version": "1.0.0",
+  "description": "Micromodule to enable DOM testing with WebdriverIO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test",
+    "webdriverio",
+    "jsdom",
+    "unit",
+    "test",
+    "qa"
+  ],
+  "author": "Szymon Sitko",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.0.0",
+    "wdio-jasmine-framework": "^0.3.2",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "webdriverio": "^4.10.2"
+  },
+  "dependencies": {
+    "jsdom": "^11.6.2",
+    "module-alias": "^2.0.6"
+  }
+}

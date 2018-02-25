@@ -1,0 +1,8 @@
+# directories
+node_modules
+test
+
+# files
+*.log
+*-lock.json
+wdio.conf.js

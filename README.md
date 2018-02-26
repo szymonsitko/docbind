@@ -15,9 +15,9 @@ It's really simple:
 
         ...
         // Using inside of "it" block
-        let firstSection = document(browser).querySelector('.flex-section');
+        let flexSection = document(browser).querySelector('.flex-section');
 
-        expect(firstSection.length).toEqual(3);
+        expect(flexSection.children.length).toEqual(3);
 
 Where 'browser' is a WebdriverIO method, available as a global variable in all test specs.
 
